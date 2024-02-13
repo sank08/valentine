@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fae1dd;
+  background-color: #f3d7d9;
 }
 
 .container {
@@ -48,7 +48,7 @@ body {
 
 .card {
   position: absolute;
-  background-color: #eae2b7;
+  background-color: #f7e7cb;
   width: 270px;
   height: 170px;
   top: 5px;
@@ -61,10 +61,14 @@ body {
   justify-content: center;
 }
 
+.card span{
+  text-transform: capitalize;
+}
+
 .card:before {
   content:"";
   position: absolute;
-  border:3px solid #003049;
+  border:3px solid #a5c3cc;
   border-style: dotted;
   width: 240px;
   height: 140px;
@@ -74,11 +78,13 @@ body {
 
 .text {
   position: absolute;
+  font-weight: 700;
   font-family: 'Brush Script MT', cursive;
-  font-size: 26px;
+  font-size: 28px;
   text-align: center;
   line-height:30px; 
-  color: #003049;
+  color: #194250;
+  /* color: #003049; */
 }
 
 .heart {
