@@ -1,15 +1,15 @@
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f3d7d9;
-}
+} */
 
 .container {
   position: relative;
-  animation: zoom 1s linear 1;
-  animation-fill-mode: forwards;
+  width: 100%;
+  height: 100vh;
 }
 
 .valentines {
