@@ -23,27 +23,30 @@ function App() {
 function Heart(props) {
   let name = props.name ? props.name : "From Sank8";
   return (
-    <div className="container" onClick={props.setEnvolope}>
-      {
-        (!props.isClicked && props.timeoutBit) && <span className='t-l'>Do Something... open the envelope</span>
-      }
-
-      <div className={`valentines ${props.isClicked ? "open" : "close"}`}>
-        <div className={`envelope ${props.isClicked ? "glow" : ""}`}></div>
-        <div className="front"></div>
-        <div className="card">
-          <div className="text">Happy<br /> Valentine's<br /> Day! <br /><span>{name}</span></div>
-        </div>
-      </div>
-      <div className="hearts">
-        <div className="one"></div>
-        <div className="two"></div>
-        <div className="three"></div>
-        <div className="four"></div>
-        <div className="five"></div>
-      </div>
-      <div className="shadow"></div>
+    <div className="container">
+      <iframe className="container"  src="https://www.google.com/search?igu=1" title="Safe browsing"></iframe>
     </div>
+    // <div className="container" onClick={props.setEnvolope}>
+    //   {
+    //     (!props.isClicked && props.timeoutBit) && <span className='t-l'>Do Something... open the envelope</span>
+    //   }
+
+    //   <div className={`valentines ${props.isClicked ? "open" : "close"}`}>
+    //     <div className={`envelope ${props.isClicked ? "glow" : ""}`}></div>
+    //     <div className="front"></div>
+    //     <div className="card">
+    //       <div className="text">Happy<br /> Valentine's<br /> Day! <br /><span>{name}</span></div>
+    //     </div>
+    //   </div>
+    //   <div className="hearts">
+    //     <div className="one"></div>
+    //     <div className="two"></div>
+    //     <div className="three"></div>
+    //     <div className="four"></div>
+    //     <div className="five"></div>
+    //   </div>
+    //   <div className="shadow"></div>
+    // </div>
   )
 }
 
