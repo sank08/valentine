@@ -26,7 +26,7 @@ function Heart(props) {
     <div className="container">
       <iframe className="container"  src="https://www.google.com/search?igu=1" title="Safe browsing"></iframe>
     </div>
-    // <div className="container" onClick={props.setEnvolope}>
+    //<div className="container" onClick={props.setEnvolope}>
     //   {
     //     (!props.isClicked && props.timeoutBit) && <span className='t-l'>Do Something... open the envelope</span>
     //   }
